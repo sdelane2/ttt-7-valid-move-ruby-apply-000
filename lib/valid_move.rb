@@ -8,4 +8,4 @@ end
 def valid_move?(board, index)
   if position_taken?
     return FALSE
-  elsif index.between
+  elsif index.between?(0,)
